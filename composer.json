@@ -1,0 +1,21 @@
+{
+    "name": "elvisbg/laravel-edusanctum",
+    "description": "A package to help admins connect Moodle domains with Laravel Sanctum for authentication.",
+    "require": {
+        "laravel/sanctum": "4.x",
+        "illuminate/support": "11.x"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ElvisBG\\LaravelEdusanctum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elvis Blanco Gonzalez",
+            "email": "elvisblanco1993@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
